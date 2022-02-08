@@ -59,7 +59,7 @@ echo $PASS | docker login -u $USER --password-stdin
 # Push image to Docker Hub Repo.
 docker push $DOCKER_IMAGE
 
-# Connecting to linu-server.
+# Connecting to linux-server.
 ssh -o StrictHostKeyChecking=no ec2-user@${server_ip}
 
 # Copying deploy.sh file to linuxx-server
