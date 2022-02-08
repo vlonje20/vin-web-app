@@ -1,2 +1,3 @@
-docker pull esso4real/learning:app-v100
-docker run -d -p 8080:8080 esso4real/learning:app-v100
+DOCKER_IMAGE=esso4real/demo-appli:v2
+docker pull $DOCKER_IMAGE
+docker run -d -p 8080:8080 $DOCKER_IMAGE
