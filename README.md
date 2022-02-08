@@ -1,6 +1,6 @@
-# maven-web-app
+## maven-web-app 
 ==========================================================
-EXECUTE ON JENKINS & LINUX SERVER
+EXECUTE ON BOTH THE JENKINS & LINUX SERVER
 ===========================================================
 Use in user_data when launching ec2-servers.
 It updates servers > Install docker > Add ec2-user to docker group > Enable & Starts docker.
