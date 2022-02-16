@@ -1,3 +1,3 @@
-DOCKER_IMAGE=esso4real/mvn-app:v5
+DOCKER_IMAGE=esso4real/today:v1
 docker pull $DOCKER_IMAGE
-docker run -d -p 8082:8082 $DOCKER_IMAGE
+docker run -d -p 8081:8081 $DOCKER_IMAGE
