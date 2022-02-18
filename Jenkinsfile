@@ -19,7 +19,7 @@ pipeline {
         stage('Build docker image') {
             steps {
                 script {
-                    def DOCKER_IMAGE = 'esso4real/pipeline:v28'
+                    def DOCKER_IMAGE = 'esso4real/pipeline:v29'
                     withCredentials([usernamePassword(credentialsId: 'dockerhub-id', passwordVariable: 'PASS', usernameVariable: 'USER')]) {
     
                     sh "docker build -t ${DOCKER_IMAGE} ." 
