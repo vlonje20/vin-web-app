@@ -2,48 +2,44 @@ pipeline {
     agent any
 
     tools {
-        maven 'maven3.8'
+        // Install the Maven 
+        maven "maven3.8"
     }
+
     stages {
-        stage ('Pulling from github') {
+        stage('Build') {
             steps {
-                script {
-                    git 'https://github.com/jenkin-app/maven-web-app.git'
-                }
+                // Get some code from a GitHub repository
+                git 'https://github.com/jenkin-app/maven-web-app.git'
+
+                // Run Maven 
+                sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
-            
-        }
-        stage ('Build the java app') {
+        }    
+        stage('Build docker image') {
             steps {
                 script {
-                    sh 'mvn clean install package'
-                }
-            }
-        }
-        stage ('Building docker image'){
-            steps {
-                script {
-                    def DOCKER_IMAGE = "<usernam>/<image>:<tag>"
+                    def DOCKER_IMAGE = 'esso4real/pipeline:v33'
                     withCredentials([usernamePassword(credentialsId: 'dockerhub-id', passwordVariable: 'PASS', usernameVariable: 'USER')]) {
-                    sh "docker build -t ${DOCKER_IMAGE} ."
+    
+                    sh "docker build -t ${DOCKER_IMAGE} ." 
                     sh "echo $PASS | docker login -u $USER --password-stdin"
                     sh "docker push ${DOCKER_IMAGE}"
-                   }
+                    }
                 }
             }
         }
-     
-        stage ('Deploying to target env') {
-            steps {
-                script {
-                    def SERVER_IP = "<server_ip>"
-                    def SERVER_USER = "<sever_user>"
-                    sh "ssh -o StrictHostKeyChecking=no ec2-user@${SERVER_IP}"
-                    sh "scp deploy.sh ${SERVER_USER}@${SERVER_IP}:~/"
-                    sh "ssh ${SERVER_USER}@${SERVER_IP} 'chmod +x deploy.sh'"
-                    sh "ssh ${SERVER_USER}@${SERVER_IP} ./deploy.sh"
-                }
+        stage ('Deploy') {
+        steps {
+            script {
+            def REMOTE_USER = 'ec2-user' 
+            def REMOTE_HOST = '54.204.49.238'
+            sh "ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST}"
+            sh "scp deploy.sh ${REMOTE_USER}@${REMOTE_HOST}:~/"
+            sh "ssh ${REMOTE_USER}@${REMOTE_HOST} 'chmod +x deploy.sh'"
+            sh "ssh ${REMOTE_USER}@${REMOTE_HOST} ./deploy.sh"
             }
         }
-    }
+    }             
+}
 }
