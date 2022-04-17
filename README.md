@@ -1,4 +1,4 @@
-###### maven-web-app 
+###### vin-maven-web-app 
 ============================================
 EXECUTE ON BOTH THE JENKINS & DEPLOY SERVER
 ============================================
@@ -7,7 +7,10 @@ It updates servers > Install docker > Add ec2-user to docker group > Enable & St
 --------------------------------------------------------------------------------------------
 sudo apt update -y
 sudo apt install docker -y
-sudo usermod -aG docker ec2-user
+sudo adduser drama20
+sudo su - drama20
+sudo usermod -aG docker drama20
+#sudo usermod -aG docker ec2-user
 sudo chmod 666 /var/run/docker.sock
 sudo systemctl enable docker 
 sudo systemctl start docker
@@ -22,7 +25,7 @@ docker run -u 0 --privileged --name jenkins -p 8080:8080 -p 50000:50000 -it -d -
 docker ps 
 docker logs -f <container_ID> #run this to get admin login to jenkins server.
 docker exec -it <container_ID> /bin/bash #Enter into jenkins server container and generate key pairs.
-
+curl ifconfig.co #to get the IP address used to connect to Jenkins 
 ssh-keygen -t rsa
 
 cat ~/.ssh/id_rsa.pub #copy and paste on linux-server ~/.ssh/authorized_keys file.
@@ -72,3 +75,7 @@ ssh ec2-user@${server_ip} "chmod +x deploy.sh"
 # Executing the deploy.sh file
 ssh ec2-user@${server_ip} ./deploy.ssh
 ===========================================================
+
+  
+  
+#Jenkins url http://18.188.186.181:8080/
