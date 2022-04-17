@@ -1,12 +1,12 @@
 ###### maven-web-app 
 ==========================================================
-EXECUTE ON BOTH THE JENKINS & LINUX SERVER
+EXECUTE ON BOTH THE JENKINS & DEPLOY SERVER
 ===========================================================
 Use in user_data when launching ec2-servers.
 It updates servers > Install docker > Add ec2-user to docker group > Enable & Starts docker.
 --------------------------------------------------------------------------------------------
-sudo yum update -y
-sudo yum install docker -y
+sudo apt update -y
+sudo apt install docker -y
 sudo usermod -aG docker ec2-user
 sudo chmod 666 /var/run/docker.sock
 sudo systemctl enable docker 
