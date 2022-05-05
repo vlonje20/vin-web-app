@@ -1,4 +1,4 @@
-	<projectId>maven-web-application</projectIt>
+	<projectId>maven-web-application</projectId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
