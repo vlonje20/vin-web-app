@@ -11,9 +11,24 @@
 <body>
 <h1 align="center">Vin Technologies</h1>
 <h2 align="center"> Welcome to Vin Technology. 
-	vinTech, the global leader in Augmented Identity, provides trusted technology, enabling 
-	citizens and consumers alike to perform their daily critical activities 
-	(such as pay, connect, travel and vote), in the physical as well as digital space. </h2>
+	vinTech, the global leader in Augmented Identity, provides trusted technology,
+        enabling citizens and consumers alike to perform their daily critical activities 
+	(such as pay, connect, travel and vote), in the physical as well as digital space.
+       
+        Special thanks to engineers Beatrice Njualem and Anne Buri for their resilient 
+        effort and sleepless night making this project a profound success.
+        A shout out to DevOps Global team: Esso, Esembe and the chief himself, Francis
+        
+        Keys to success:
+        ----------------
+        The very first key to success is to make a plan. 
+        This means having a clear picture of what a successful life looks like to you and 
+        putting together a well-defined set of goals to get you to that life. ... 
+        To succeed means to accomplish a goal. 
+        By this definition, if you don't set goals, you'll never succeed.
+
+        Key for successful life is dedication, hard work, motivation, 
+        love towards what you do and importantly consistency. </h2>
 <hr>
 <div style="text-align: center;">
 	<span>
