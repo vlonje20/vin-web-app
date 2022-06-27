@@ -16,10 +16,10 @@
 <p style="color:DodgerBlue;">Here are some wise quotes that can get you through hard times and tribulations.</p>
 
 <blockquote>
-<b>vinTech</b>; When you’re really struggling it can sometimes seem almost impossible that you’ll ever feel good again. 
+When you’re really struggling it can sometimes seem almost impossible that you’ll ever feel good again. 
 The truth is, life is hard for everyone (and I mean EVERYONE) and you’re not alone in your struggles. 
 Use these inspirational quotes about life struggles to give you hope and spark your light again, 
-and to show you that things will get better and this too shall pass. 
+and to show you that things will get better and this too shall pass. <b>Vin Lonje</b>; 
 </blockquote>
 	
 <p> Our greatest glory is not in never falling, but in rising every time we fall. <b>– Confucius</b> </p>
@@ -32,7 +32,7 @@ and to show you that things will get better and this too shall pass.
 <p> The triumph can’t be had without the struggle. <b>– Wilma Rudolph</b> </p>
 <p> Life is like riding a bicycle. To keep your balance, you must keep moving. <b>– Albert Einstein</b> </p>
 	
-<blockquote style="background-color:Gray;"> 
+<blockquote style="color:DodgerBlue"> 
         <p>Special thanks to engineer <b>Beatrice Njualem</b> and engineer <b>Anne Buri</b> for their resilient</p>
         <p>effort and sleepless night in making this project a profound success.</p>
 	<p>A shout out to DevOps Global team: Esso, Esembe and the chief himself, Francis!</p> 
