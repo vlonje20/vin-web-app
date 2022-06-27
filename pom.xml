@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url> http://44.192.81.238:8888/mylandmarktech/repository/ebay-java-app-releases/</url>
+	      <name>vinTech Releases Nexus Repository</name>
+	      <url> http:http://3.22.241.199:8081/repository/vin-web-app/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/ebay-java-app-snapshot/</url>
+	      <name>vinTech Snapshot Nexus Repository </name>
+	      <url>http://3.22.241.199:8081/repository/vin-web-app-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
