@@ -12,39 +12,32 @@
 <h2 align="center" style="color:Tomato;">Vin Technologies</h2>
 <h3 align="center">Welcome to vinTech.</h3>
 <medium align="left"> 
-	<b>vinTech</b>; the global leader in Augmented Identity; provides trusted technology,
-        enabling citizens and consumers alike to perform their daily critical activities
-        (such as pay, connect, travel and vote), in the physical as well as digital space. 
 	
-        <p style="color:DodgerBlue;">
-        Keys to success:
-        The very first key to success is to make a plan.
-        This means having a clear picture of what a successful life looks like to you and
-        putting together a well-defined set of goals to get you to that life.
-        To succeed means to accomplish a goal.
-        By this definition, if you don't set goals, you'll never succeed.
-        Key for successful life is dedication, hard work, motivation,
-        love towards what you do and importantly, consistency. 
-        <p/>
+<p style="color:DodgerBlue;">Here are some wise quotes that can get you through hard times and tribulations.</p>
 
-        <p style="color:MediumSeaGreen;>
-        About DevOps: Other than it being a cross-functional combination (and a portmanteau) 
-        of the terms and concepts for "development" and "operations", academics and 
-        practitioners have not developed a universal definition for the term "DevOps".
-        Most often, DevOps is characterized by key principles: shared ownership, workflow 
-        automation, and rapid feedback.
-        From an academic perspective, Len Bass, Ingo Weber, and Liming Zhu — three computer 
-        science researchers from the CSIRO and the Software Engineering Institute — suggested 
-        defining DevOps as "a set of practices intended to reduce the time between committing 
-        a change to a system and the change being placed into normal production, while 
-        ensuring high quality".
-        However, the term is used in multiple contexts. At its most successful, DevOps is a 
-        combination of specific practices, culture change, and tools. 
-	</p>
+<blockquote>
+<b>vinTech</b>; When you’re really struggling it can sometimes seem almost impossible that you’ll ever feel good again. 
+The truth is, life is hard for everyone (and I mean EVERYONE) and you’re not alone in your struggles. 
+Use these inspirational quotes about life struggles to give you hope and spark your light again, 
+and to show you that things will get better and this too shall pass. 
+</blockquote>
 	
-        Special thanks to engineer <b>Beatrice Njualem</b> and engineer <b>Anne Buri</b> for their resilient
-        effort and sleepless night in making this project a profound success.
-        A shout out to DevOps Global team: Esso, Esembe and the chief himself, Francis! </medium>
+<p> Our greatest glory is not in never falling, but in rising every time we fall. <b>– Confucius</b> </p>
+<p> Some roses grow through concrete. Remember that. <b>– Brandi L. Bates</b> </p>
+<p> Strength and growth come only through continuous effort and struggle. <b>– Napoleon Hill</b> </p>
+<p> We must meet the challenge rather than wish it were not before us. <b>– William J. Brennan, Jr. </b> </p>
+<p> When life knocks you down, try to land on your back. Because if you can look up, you can get up. <b>– Les Brown</b> </p>
+<p> We must embrace pain and burn it as fuel for our journey. <b>– Kenji Miyazawa</b> </p>
+<p> I am not afraid of storms, for I am learning how to sail my ship. <b>– Louisa May Alcott</b> </p>
+<p> The triumph can’t be had without the struggle. <b>– Wilma Rudolph</b> </p>
+<p> Life is like riding a bicycle. To keep your balance, you must keep moving. <b>– Albert Einstein</b> </p>
+	
+<blockquote style="background-color:Gray;"> 
+        <p>Special thanks to engineer <b>Beatrice Njualem</b> and engineer <b>Anne Buri</b> for their resilient</p>
+        <p>effort and sleepless night in making this project a profound success.</p>
+	<p>A shout out to DevOps Global team: Esso, Esembe and the chief himself, Francis!</p> 
+</blockquote>
+</medium>
 
 
 <hr>
