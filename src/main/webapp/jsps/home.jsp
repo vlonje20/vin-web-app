@@ -50,7 +50,7 @@
 <hr>
 <div style="text-align: center;">
         <span>
-                <img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="345">
+                <img src="img_chania.jpg" alt="Thanks to CEO Vin Lonje of" width="460" height="345">
         </span>
         <span style="font-weight: bold;">
                 Vin Technology,
